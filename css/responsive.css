@@ -1,0 +1,284 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    nav ul li a{
+        padding: 10px 18px;
+    
+    }
+
+  }
+
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    nav ul li a{
+        padding: 10px 18px;
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    nav ul li a{
+        padding: 10px 18px;
+    
+    }
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    nav ul li a{
+        padding: 10px 18px;
+    
+    }
+  }
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 867px) {
+    
+    /* CSS */
+    #icon {
+        display: block;
+    }
+    nav ul {
+      position: absolute;
+      background: rgba(13, 13, 9, 0.64);
+      margin-top: 70px;
+        opacity: 0;
+        transition: all .5s;
+        text-align: center;
+    }
+    .nav ul li{
+        text-align: center;
+        width: 100%;
+        transition: all .5s;
+    }
+    nav ul li a{
+        display: block;
+        line-height: 30px;
+        transition: all .5s;
+
+    }
+    nav ul.show{
+        opacity: 1;
+        transition: all .5s;
+    }
+    .box-1 p{
+      padding: 10px 0px;
+    }
+    .box-2 p{
+      padding: 10px 0px;
+    }
+   .boxx{
+     padding-top: 50px;
+      display: block;
+      text-align: center;
+    }
+    
+    .box-02{
+      margin-left: 0%;
+      margin-top: 50px;
+    }
+    .box-02 h1{
+      font-size: 50px;
+      }
+    .box-02 p {
+  
+      margin: 30px 0px;
+    } 
+    
+.tour1{
+	display: block;
+  text-align: center;
+}
+.left-box{
+	width: 100%;
+}
+.left-box p{
+	margin: 30px 0px;
+}
+
+.right-box{
+	width: 100%;
+	display: inline;
+  padding-left: 0px;
+}
+.left-box button{
+  margin-bottom: 30px;
+}
+
+.img1{ 
+	width: 75%;
+	height: 55%;
+	padding: 10px;	 }
+.img2{
+	width: 75%;
+	height: 55%;
+	padding: 10px;
+}
+.img3{
+	width: 75%;
+	height: 55%;
+	padding: 10px;
+}
+.img4{
+	width: 75%;
+	height: 55%;
+	padding: 10px;
+} 
+.i1{
+	font-size: 40px;
+}
+
+
+
+  }
+
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 0px) and (max-width: 480px) {
+    
+    /* CSS */
+    #icon {
+        display: block;
+    }
+    nav ul {
+      position: absolute;
+      background: rgba(13, 13, 9, 0.64);
+      margin-top: 70px;
+        opacity: 0;
+        transition: all .5s;
+        text-align: center;
+    }
+    .nav ul li{
+        text-align: center;
+        width: 100%;
+        transition: all .5s;
+    }
+    nav ul li a{
+        display: block;
+        line-height: 30px;
+        transition: all .5s;
+
+    }
+    nav ul.show{
+        opacity: 1;
+        transition: all .5s;
+    }
+    .content{
+      margin-top: 50px;
+    }
+
+    .content h1{
+      font-size: 30px;
+    }
+    .box{
+      display: block;
+    }
+    .box-1{
+      width: 80%;
+    }
+    .box-2{
+      width: 80%;
+    }
+    .box-1 p{
+      padding: 10px 0px;
+    }
+    .box-2 p{
+      padding: 10px 0px;
+    }
+    .boxx{
+      padding-top: 50px;
+      display: block;
+      text-align: center;
+    }
+    
+    .box-02{
+      margin-left: 0%;
+      margin-top: 50px;
+    }
+    .box-02 h1{
+      font-size: 40px;
+      }
+    .box-02 p {
+  
+      margin: 30px 0px;
+    }
+  
+.tour1{
+	display: block;
+  text-align: center;
+}
+.left-box{
+	width: 100%;
+}
+.left-box p{
+	margin: 30px 0px;
+}
+
+.right-box{
+	width: 100%;
+	display: inline;
+  padding-left: 0px;
+}
+.left-box button{
+  margin-bottom: 30px;
+}
+
+.img1{ 
+	width: 75%;
+	height: 55%;
+	padding: 10px;	 }
+.img2{
+	width: 75%;
+	height: 55%;
+	padding: 10px;
+}
+.img3{
+	width: 75%;
+	height: 55%;
+	padding: 10px;
+}
+.img4{
+	width: 75%;
+	height: 55%;
+	padding: 10px;
+} 
+.i1{
+	font-size: 20px;
+}
+
+}
+  

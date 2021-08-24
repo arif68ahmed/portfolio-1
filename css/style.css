@@ -1,0 +1,311 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,button{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/**Header section Start From Here**/
+.header{
+	background-image: url('../image/1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 100vh;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+#icon{
+	font-size: 32px;
+	color: #fff;
+	line-height: 50px;
+	display: none;
+	cursor: pointer;
+}
+.logo {
+	padding-top: 10px;
+}
+
+.logo p{
+	font-weight: 400;
+}
+.bold{
+	font-weight: 900;
+}
+nav{
+	padding-top: 15px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 80px;
+}
+nav ul li a{
+	padding: 10px 16px;
+	color: #fff;
+	transition: .3s;
+
+}
+nav ul li a:hover{
+	background-color: #fb2056;
+	color: #000;
+	transition: .3s;
+
+}
+.circle{
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+
+
+.content{
+	margin-top: 150px;
+}
+.content p {
+	font-style: italic;
+
+}
+.bb1{
+	border-bottom: 2px solid red;
+	width: 70px;
+	margin: auto;
+	display: inline-block;
+
+}
+.content h1{
+	margin-top: 20px;
+	font-size: 50px;
+}
+.content button{
+	color: #fff;
+	background-color: #fb2056;
+	padding: 12px 28px;
+	border-radius: 25px;
+	margin-top: 20px;
+	border: none;
+	transition: .5s;
+}
+.content button:hover{
+	background: #000;
+	color: ;
+	transition: .5s;
+
+}
+/**Header Section End From Here**/
+
+/** Section-2 Start From Here**/
+
+.section-2 {
+	background-color: #f4f5f9;
+	text-align: center;
+	padding: 60px 0px;
+
+}
+.author{
+	margin: 0px;
+	padding: 0px;
+}
+.d-flex{
+
+}
+
+.author_name{
+	font-weight: 800;
+
+}
+.i1{
+	color: #fff;
+	font-size: 80px;
+	float: left;
+}
+
+/** Section-2 End From Here**/
+
+
+/** Section-3 Start From Here**/
+.event h1 {
+	text-align: center;
+
+}
+.event{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.b{
+
+}
+.bb2{
+	border-bottom: 2px solid red;
+	width: 70px;
+	display: inline-block;
+}
+.box{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 60px;
+	text-align: center;
+}
+.shadow{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+	box-shadow: 5px 10px 1px 5px #ededed;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0px 20px !important;
+}
+
+.box-1{
+	width: 40%;
+}
+.box-1 h3{
+	margin-top: 30px;
+}
+.box-1 p{
+	font-size: 16px;
+	color: #715b6c;
+	padding-top: 20px;
+	padding: 0px 30px;
+	padding-bottom: 30px;
+}
+.box-1 span{
+	color: red;
+	font-size: 14px;
+	font-weight: 400;
+}
+.box-2{
+	width: 40%;
+}
+
+.box-2 h3{
+	margin-top: 30px;
+}
+.box-2 p{
+	font-size: 16px;
+	color: #715b6c;
+	padding-top: 20px;
+	padding: 0px 30px;
+	padding-bottom: 30px;
+}
+.box-2 span{
+	color: red;
+	font-size: 14px;
+	font-weight: 400;
+}
+/** Section-3 End From Here**/
+
+/** Section-4 Start From Here**/
+
+.section-4{
+	background-image: url('../image/2.jpg');
+	height: 800px;
+	color: #fff;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+}
+.boxx{
+	display: flex;
+}
+
+.box-02{
+	margin-left: 50%;
+	margin-top: 50px;
+}
+.box-02 h1{
+	font-size: 70px;
+
+}
+.box-02 p {
+	margin: 30px 0px;
+}
+
+/** Section-4 End From Here**/
+
+/** Section-5 Start From Here**/
+
+
+.tour1{
+	display: flex;
+}
+.left-box{
+	width: 30%;
+}
+.left-box p{
+	margin: 30px 0px;
+}
+
+.right-box{
+	width: 70%;
+	display: inline;
+	padding-left: 40px;
+}
+.left-box button{
+	padding: 10px 25px;
+	background-color: #fb2056;
+	border-radius: 25px;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	transition: .5s;
+}
+.left-box button:hover{
+	background: #000;
+	transition: .5s;
+}
+
+.img1{ 
+	width: 40%;
+	height: 35%;
+	padding: 10px;	 }
+.img2{
+	width: 40%;
+	height: 35%;
+	padding: 10px;
+}
+.img3{
+	width: 40%;
+	height: 35%;
+	padding: 10px;
+}
+.img4{
+	width: 40%;
+	height: 35%;
+	padding: 10px;
+} 
+.img1, .img2, .img3, .img4 {
+	cursor: pointer;
+
+}
+
+/** Section-5 End From Here**/
+
+/**Footer Start From Here**/
+
+
+.footer{
+	text-align: center;
+	background-color: #191919;
+	color: #fff;
+	padding: 30px;
+}
+.footer p{
+	font-size: 14px;
+	color: #dee1e6;
+}
+.footer span{
+	line-height: 50px;
+}
+/**Footer End From Here**/
